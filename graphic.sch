@@ -6282,17 +6282,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R1" gate="R" pin="1"/>
-<pinref part="IC1" gate="A" pin="+IN"/>
-<wire x1="33.02" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="157.48" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
-<junction x="35.56" y="157.48"/>
 <pinref part="160HZ" gate="FADE" pin="A"/>
 <wire x1="71.12" y1="121.92" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="410HZ" gate="FADE" pin="A"/>
-<wire x1="45.72" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="121.92" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="104.14" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
 <junction x="71.12" y="104.14"/>
@@ -6315,6 +6309,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="63HZ" gate="FADE" pin="A"/>
 <wire x1="45.72" y1="119.38" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 <junction x="45.72" y="104.14"/>
+<wire x1="30.48" y1="104.14" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="-IN"/>
+<wire x1="45.72" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="152.4" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R2" gate="R" pin="1"/>
+<wire x1="50.8" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<junction x="43.18" y="144.78"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -6860,13 +6862,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="-IN"/>
-<wire x1="45.72" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="152.4" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R2" gate="R" pin="1"/>
-<wire x1="50.8" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
-<junction x="43.18" y="144.78"/>
-<wire x1="43.18" y1="137.16" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="16KHZ" gate="FADE" pin="E"/>
 <pinref part="7.7KHZ" gate="FADE" pin="E"/>
 <wire x1="266.7" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
@@ -6882,12 +6877,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="160HZ" gate="FADE" pin="E"/>
 <wire x1="99.06" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 <junction x="99.06" y="137.16"/>
-<wire x1="43.18" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <junction x="71.12" y="137.16"/>
 <pinref part="63HZ" gate="FADE" pin="E"/>
 <wire x1="45.72" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="134.62" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <junction x="45.72" y="137.16"/>
+<pinref part="IC1" gate="A" pin="+IN"/>
+<pinref part="R1" gate="R" pin="1"/>
+<wire x1="33.02" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="137.16" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
+<junction x="35.56" y="157.48"/>
 </segment>
 </net>
 <net name="N$22" class="0">
