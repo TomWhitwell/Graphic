@@ -6003,10 +6003,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="C30" gate="R" x="256.54" y="17.78" rot="R90"/>
 <instance part="IC5" gate="A" x="322.58" y="88.9"/>
 <instance part="C31" gate="C" x="88.9" y="114.3" rot="R270"/>
-<instance part="C32" gate="C" x="119.38" y="114.3" rot="R270"/>
-<instance part="C33" gate="C" x="152.4" y="111.76" rot="R270"/>
+<instance part="C32" gate="C" x="119.38" y="114.3" rot="R90"/>
+<instance part="C33" gate="C" x="152.4" y="111.76" rot="R90"/>
 <instance part="C34" gate="C" x="185.42" y="119.38" rot="R270"/>
-<instance part="C35" gate="C" x="190.5" y="111.76" rot="R270"/>
+<instance part="C35" gate="C" x="190.5" y="111.76" rot="R90"/>
 <instance part="C36" gate="C" x="236.22" y="111.76" rot="R270"/>
 <instance part="C37" gate="C" x="284.48" y="121.92" rot="R270"/>
 <instance part="C38" gate="C" x="292.1" y="121.92" rot="R270"/>
@@ -6381,7 +6381,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="106.68" y1="127" x2="106.68" y2="129.54" width="0.1524" layer="91"/>
 <junction x="106.68" y="129.54"/>
 <pinref part="C32" gate="C" pin="2"/>
-<wire x1="119.38" y1="111.76" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="116.84" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="129.54" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
 <junction x="111.76" y="129.54"/>
 </segment>
@@ -6397,7 +6397,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="139.7" y="129.54"/>
 <pinref part="1KHZ" gate="FADE" pin="S"/>
 <pinref part="C33" gate="C" pin="2"/>
-<wire x1="152.4" y1="109.22" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="114.3" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="129.54" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
 <junction x="144.78" y="129.54"/>
 </segment>
@@ -6413,7 +6413,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="185.42" y1="129.54" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
 <junction x="177.8" y="129.54"/>
 <pinref part="C35" gate="C" pin="2"/>
-<wire x1="190.5" y1="109.22" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="114.3" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
 <junction x="185.42" y="129.54"/>
 </segment>
@@ -6612,7 +6612,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="106.68" y="114.3"/>
 <pinref part="C32" gate="C" pin="1"/>
 <wire x1="106.68" y1="109.22" x2="106.68" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="116.84" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="111.76" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <junction x="106.68" y="109.22"/>
 </segment>
@@ -6633,7 +6633,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="139.7" y="114.3"/>
 <pinref part="C33" gate="C" pin="1"/>
 <wire x1="139.7" y1="106.68" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="114.3" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="109.22" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="106.68" x2="139.7" y2="106.68" width="0.1524" layer="91"/>
 <junction x="139.7" y="106.68"/>
 </segment>
@@ -6706,7 +6706,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="185.42" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
 <junction x="177.8" y="114.3"/>
 <pinref part="C35" gate="C" pin="1"/>
-<wire x1="190.5" y1="114.3" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="109.22" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
 <junction x="177.8" y="106.68"/>
 </segment>
