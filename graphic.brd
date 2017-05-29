@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -635,16 +635,16 @@ design rules under a new name.</description>
 <element name="C27" library="we-rcl" package="C0805" value="220pf" x="85.725" y="20.955" rot="R90"/>
 <element name="R16" library="we-rcl" package="C0805" value="1.8k" x="85.725" y="22.86" rot="R90"/>
 <element name="R17" library="we-rcl" package="C0805" value="51k" x="85.725" y="19.05" rot="R90"/>
-<element name="R18" library="we-rcl" package="C0805" value="470R" x="104.775" y="4.7625" rot="R270"/>
-<element name="R19" library="we-rcl" package="C0805" value="470R" x="87.9475" y="5.715" smashed="yes">
+<element name="R18" library="we-rcl" package="C0805" value="2k" x="104.775" y="4.7625" rot="R270"/>
+<element name="R19" library="we-rcl" package="C0805" value="2k" x="87.9475" y="5.715" smashed="yes">
 <attribute name="NAME" x="87.0585" y="5.08" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="top-right"/>
 <attribute name="VALUE" x="89.5985" y="4.699" size="0.6096" layer="27" font="vector" ratio="10" rot="R270" align="top-right"/>
 </element>
-<element name="R20" library="we-rcl" package="C0805" value="470R" x="83.82" y="5.715"/>
-<element name="R21" library="we-rcl" package="C0805" value="470R" x="72.39" y="5.715"/>
-<element name="R22" library="we-rcl" package="C0805" value="470R" x="59.055" y="5.715"/>
-<element name="R23" library="we-rcl" package="C0805" value="470R" x="47.625" y="5.715"/>
-<element name="R24" library="we-rcl" package="C0805" value="470R" x="34.29" y="5.715"/>
+<element name="R20" library="we-rcl" package="C0805" value="2k" x="83.82" y="5.715"/>
+<element name="R21" library="we-rcl" package="C0805" value="2k" x="72.39" y="5.715"/>
+<element name="R22" library="we-rcl" package="C0805" value="2k" x="59.055" y="5.715"/>
+<element name="R23" library="we-rcl" package="C0805" value="2k" x="47.625" y="5.715"/>
+<element name="R24" library="we-rcl" package="C0805" value="2k" x="34.29" y="5.715"/>
 <element name="R25" library="we-rcl" package="C0805" value="10k" x="5.715" y="20.955" rot="R90"/>
 <element name="R26" library="we-rcl" package="C0805" value="10k" x="5.715" y="19.05" rot="R90"/>
 <element name="D3" library="diode" package="SOD123" value="5819" x="87.9475" y="14.2875" smashed="yes">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -5875,13 +5875,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R16" library="we-rcl" deviceset="RESISTOR" device="-0805" value="1.8k"/>
 <part name="R17" library="we-rcl" deviceset="RESISTOR" device="-0805" value="51k"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R18" library="we-rcl" deviceset="RESISTOR" device="-0805" value="470R"/>
-<part name="R19" library="we-rcl" deviceset="RESISTOR" device="-0805" value="470R"/>
-<part name="R20" library="we-rcl" deviceset="RESISTOR" device="-0805" value="470R"/>
-<part name="R21" library="we-rcl" deviceset="RESISTOR" device="-0805" value="470R"/>
-<part name="R22" library="we-rcl" deviceset="RESISTOR" device="-0805" value="470R"/>
-<part name="R23" library="we-rcl" deviceset="RESISTOR" device="-0805" value="470R"/>
-<part name="R24" library="we-rcl" deviceset="RESISTOR" device="-0805" value="470R"/>
+<part name="R18" library="we-rcl" deviceset="RESISTOR" device="-0805" value="2k"/>
+<part name="R19" library="we-rcl" deviceset="RESISTOR" device="-0805" value="2k"/>
+<part name="R20" library="we-rcl" deviceset="RESISTOR" device="-0805" value="2k"/>
+<part name="R21" library="we-rcl" deviceset="RESISTOR" device="-0805" value="2k"/>
+<part name="R22" library="we-rcl" deviceset="RESISTOR" device="-0805" value="2k"/>
+<part name="R23" library="we-rcl" deviceset="RESISTOR" device="-0805" value="2k"/>
+<part name="R24" library="we-rcl" deviceset="RESISTOR" device="-0805" value="2k"/>
 <part name="R25" library="we-rcl" deviceset="RESISTOR" device="-0805" value="10k"/>
 <part name="R26" library="we-rcl" deviceset="RESISTOR" device="-0805" value="10k"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
