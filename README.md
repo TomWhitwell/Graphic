@@ -12,7 +12,7 @@ The PCB panel includes two holes for M2 x 6mm bolts (48SM006) to make the constu
 
 This m2 x 2.9mm spacer should work: 710-9774015243R, and thisthis M2.5 x 3mm 761-M0502-25-AL should also work OK. 
 
-Notes on assembling the boards with SMD pre-populated: 
+## Notes on assembling the boards with SMD pre-populated: 
 1. There are only two types of parts to attach: Sliders and Sockets.  
 1. First, position the sliders. They have 4 pins on one end, 2 pins on the other, so it's impossible to get them the wrong way around. Carefully straighten the pins a little if they don't fit into the holes. I find it easier to insert the 2 pin side first, then slide the 4 pins into place. 
 1. Position all the sliders before starting to solder, making sure they're completely even and flat. 
